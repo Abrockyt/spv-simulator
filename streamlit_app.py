@@ -5,7 +5,7 @@ from backend import Transaction, Block, FullNode, SPVClient
 
 # Page configuration
 st.set_page_config(
-    page_title="SPV Blockchain Simulator - by Abraham",
+    page_title="SPV Blockchain Simulator - by Abhinay and Harish",
     page_icon="🔗",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -217,7 +217,7 @@ def verify_with_proof(txid, proof):
 # Main app
 st.title("🔗 SPV Transaction Verification Simulator")
 st.markdown("**Enhanced Edition** - Demonstrating Simplified Payment Verification in Blockchain")
-st.markdown("*Created by Abraham | December 2025*")
+st.markdown("*Created by Abhinay and Harish | December 2025*")
 st.markdown("---")
 
 # Create tabs
@@ -395,7 +395,7 @@ with st.sidebar:
     st.markdown("""
     **SPV Transaction Verification Simulator**
     
-    **Created by:** Abraham  
+    **Created by:** Abhinay and Harish  
     **Date:** December 2025  
     **Project:** Blockchain SPV Demonstration
     
