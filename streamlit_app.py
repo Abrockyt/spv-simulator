@@ -229,16 +229,11 @@ with tab1:
     with col1:
         st.subheader("1. Simulation Setup")
         
-        # Transaction input
-        default_txs = "Alice pays Bob\nCarol pays David\nEve pays Frank\nGrace pays Heidi"
-        tx_input = st.text_area(
-            "Enter transactions (one per line):",
-            value=default_txs,
-            height=150,
-            key="tx_input"
-        )
+        # Initialize transaction text in session state
+        if 'transaction_text' not in st.session_state:
+            st.session_state.transaction_text = "Alice pays Bob\nCarol pays David\nEve pays Frank\nGrace pays Heidi"
         
-        # File operations
+        # File operations - must come before text_area
         col_load, col_save = st.columns(2)
         
         with col_load:
@@ -246,10 +241,23 @@ with tab1:
             if uploaded_file is not None:
                 try:
                     scenario = json.load(uploaded_file)
-                    st.session_state.tx_input = '\n'.join(scenario.get('transactions', []))
+                    st.session_state.transaction_text = '\n'.join(scenario.get('transactions', []))
                     st.success(f"✅ Loaded {len(scenario.get('transactions', []))} transactions")
+                    st.rerun()
                 except Exception as e:
                     st.error(f"❌ Error loading file: {str(e)}")
+        
+        # Transaction input
+        tx_input = st.text_area(
+            "Enter transactions (one per line):",
+            value=st.session_state.transaction_text,
+            height=150,
+            key="tx_input"
+        )
+        
+        # Update session state when text changes
+        if tx_input != st.session_state.transaction_text:
+            st.session_state.transaction_text = tx_input
         
         with col_save:
             if st.download_button(
