@@ -217,7 +217,7 @@ def verify_with_proof(txid, proof):
 # Main app
 st.title("🔗 SPV Transaction Verification Simulator")
 st.markdown("**Enhanced Edition** - Demonstrating Simplified Payment Verification in Blockchain")
-st.markdown("*Created by Abhinay and Harish | December 2025*")
+st.markdown("*Created by Abhinay and Harish*")
 st.markdown("---")
 
 # Create tabs
@@ -396,7 +396,6 @@ with st.sidebar:
     **SPV Transaction Verification Simulator**
     
     **Created by:** Abhinay and Harish  
-    **Date:** December 2025  
     **Project:** Blockchain SPV Demonstration
     
     This application demonstrates:
