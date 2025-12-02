@@ -1,0 +1,14 @@
+{
+  "transactions": [
+    "Transaction #1: Alice -> Bob (10 BTC)",
+    "Transaction #2: Carol -> David (5 BTC)",
+    "Transaction #3: Eve -> Frank (3 BTC)",
+    "Transaction #4: Grace -> Heidi (7 BTC)",
+    "Transaction #5: Ivan -> Judy (2 BTC)",
+    "Transaction #6: Karl -> Laura (15 BTC)",
+    "Transaction #7: Mike -> Nancy (8 BTC)",
+    "Transaction #8: Oscar -> Paula (4 BTC)"
+  ],
+  "timestamp": "2025-12-01T10:30:00",
+  "network_delay": 1.0
+}

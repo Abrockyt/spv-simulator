@@ -1,0 +1,12 @@
+{
+  "transactions": [
+    "Alice sends 10 BTC to Bob",
+    "Carol sends 5 BTC to David",
+    "Eve sends 3 BTC to Frank",
+    "Grace sends 7 BTC to Heidi",
+    "Ivan sends 2 BTC to Judy",
+    "Karl sends 15 BTC to Laura"
+  ],
+  "timestamp": "2025-12-01T00:00:00",
+  "network_delay": 0.8
+}
