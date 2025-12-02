@@ -1,0 +1,10 @@
+{
+  "transactions": [
+    "Transfer: Account 1234 -> Account 5678 ($1000)",
+    "Transfer: Account 2345 -> Account 6789 ($500)",
+    "Transfer: Account 3456 -> Account 7890 ($2500)",
+    "Transfer: Account 4567 -> Account 8901 ($750)"
+  ],
+  "timestamp": "2025-12-02T14:30:00",
+  "network_delay": 0.3
+}

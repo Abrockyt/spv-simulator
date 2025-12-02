@@ -1,0 +1,12 @@
+{
+  "transactions": [
+    "Order #1001: Customer A pays $250 for Laptop",
+    "Order #1002: Customer B pays $85 for Headphones",
+    "Order #1003: Customer C pays $120 for Keyboard",
+    "Order #1004: Customer D pays $45 for Mouse",
+    "Order #1005: Customer E pays $399 for Monitor",
+    "Order #1006: Customer F pays $25 for USB Cable"
+  ],
+  "timestamp": "2025-12-02T09:00:00",
+  "network_delay": 0.5
+}

@@ -1,0 +1,14 @@
+{
+  "transactions": [
+    "Shipment #S001: Factory to Warehouse (100 units)",
+    "Shipment #S002: Warehouse to Store A (25 units)",
+    "Shipment #S003: Warehouse to Store B (30 units)",
+    "Shipment #S004: Store A to Customer (5 units)",
+    "Shipment #S005: Factory to Distribution Center (200 units)",
+    "Shipment #S006: Distribution Center to Warehouse (50 units)",
+    "Shipment #S007: Store B to Customer (10 units)",
+    "Shipment #S008: Warehouse to Store C (40 units)"
+  ],
+  "timestamp": "2025-12-02T11:00:00",
+  "network_delay": 0.6
+}

@@ -1,0 +1,22 @@
+{
+  "transactions": [
+    "TX1: A pays B",
+    "TX2: C pays D",
+    "TX3: E pays F",
+    "TX4: G pays H",
+    "TX5: I pays J",
+    "TX6: K pays L",
+    "TX7: M pays N",
+    "TX8: O pays P",
+    "TX9: Q pays R",
+    "TX10: S pays T",
+    "TX11: U pays V",
+    "TX12: W pays X",
+    "TX13: Y pays Z",
+    "TX14: AA pays BB",
+    "TX15: CC pays DD",
+    "TX16: EE pays FF"
+  ],
+  "timestamp": "2025-12-02T12:00:00",
+  "network_delay": 0.7
+}
